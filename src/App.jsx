@@ -61,6 +61,9 @@ function App() {
   const inputStyle = {
     padding: '5px',
     margin: '5px',
+    appearance: 'none', // Supprime les flèches
+    WebkitAppearance: 'none', // Pour Chrome/Safari
+    MozAppearance: 'none', // Pour Firefox
   };
 
   const buttonStyle = {
